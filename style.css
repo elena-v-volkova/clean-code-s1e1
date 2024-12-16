@@ -129,7 +129,7 @@ label[for="new-task"] {
 }
 
 /* Completed */
-.todo__list--completed .todo__task-label {
+.todo__list--completed .text-label {
   text-decoration: line-through;
   color: #888;
 }
