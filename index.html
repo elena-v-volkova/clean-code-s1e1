@@ -19,12 +19,12 @@
     <main>
       <section class="details">
         <img src="./eisenhower-matrix.jpg" class="details__img" alt="Eisenhower Matrix">
-        <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+        <a class="details__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
       </section>
-      <section class="centered-main-page-element">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="task text-input" type="text">
+      <section class="todo">
+        <label for="new-task" class="todo__label">Add Item</label>
+        <div class="todo__controls">
+          <input id="new-task"class="todo__input" type="text">
           <button class="button">Add</button>
         </div>
       <h2 class="todo__heading">Todo</h2>
@@ -32,7 +32,7 @@
         <li class="todo__task-item">
           <input type="checkbox">
           <label class="task text-label">Pay Bills</label>
-          <input type="text" class="task text-input">
+          <input type="text" class="todo__input">
           <button class="button edit">Edit</button>
           <button class="button delete">
             <img src="./remove.svg" class="button__img" alt="">
@@ -41,7 +41,7 @@
         <li class="todo__task-item editMode">
           <input type="checkbox">
           <label class="task text-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task text-input">
+          <input type="text" value="Go Shopping" class="todo__input">
           <button class="button edit">Save</button>
           <button class="button delete">
           <img src="./remove.svg" class="button__img" alt="">
@@ -53,7 +53,7 @@
         <li class="todo__task-item">
           <input type="checkbox" checked>
           <label class="task todo__task-label text-label">See the Doctor</label>
-          <input type="text" class="task text-input">
+          <input type="text" class="todo__input">
           <button class="button edit">Edit</button>
           <button class="button delete">
             <img src="./remove.svg" class="button__img" alt="">
