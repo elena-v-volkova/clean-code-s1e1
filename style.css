@@ -38,7 +38,7 @@
 }
 
 .todo__task-label, 
-.todo__input{
+.todo__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -57,7 +57,7 @@
   list-style: none;
 }
 
-input,button{
+input,button {
   outline: none;
 }
 
