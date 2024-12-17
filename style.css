@@ -16,9 +16,11 @@
   display: block;
   text-align: right;
 }
+
 .details__img {
   width: 100%;
 }
+
 .details__link {
   font-family: "fantasy", cursive;
 }
@@ -28,29 +30,36 @@
     text-align: center;
   }
 }
+
 .todo {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todo__task-label, .todo__input{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo__controls {
   display: flex;
 }
+
 .todo__list {
   margin: 0;
   padding: 0px;
 }
+
 .todo__heading {
   list-style: none;
 }
+
 input,button{
   outline: none;
 }
+
 button {
   background: none;
   border: 0px;
@@ -60,9 +69,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .todo__heading,
 .todo__label {
@@ -74,6 +85,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo__input {
   margin: 0;
   font-size: 18px;
@@ -86,6 +98,7 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .todo__input:focus {
   color: #333;
 }
@@ -95,6 +108,7 @@ button:hover {
   display: block;
   margin: 0 0 20px;
 }
+
 .todo__task-label, .todo__input {
   width: 318px;
 }
@@ -108,6 +122,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+
 .todo__task-item > * {
   vertical-align: middle;
 }
@@ -115,20 +130,24 @@ button:hover {
 .todo__checkbox {
   margin: 0 10px;
 }
+
 .todo__task-item > .todo__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .todo__task-item > .todo__input {
   width: 226px;
 }
+
 .button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button__img:hover {
   transform: rotateZ(0);
 }
